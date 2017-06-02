@@ -442,7 +442,7 @@ textarea {
 /*-------------------------------------------------
 	5. Skills
 -------------------------------------------------*/
-.skills-background {
+.edu-background {
 	background: url("../images/edu-img.jpg") no-repeat;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -455,45 +455,21 @@ textarea {
 }
 
 /*-------------------------------------------------
-	6. Hire me
+	6. Experience
 -------------------------------------------------*/
-.hire-background {
+.experience-background {
 	background: url("../images/exp-img.jpg") no-repeat;
-	min-height:100px;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-ms-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	text-align: center;
-	padding: 0;
-}
-
-.hire-background p {
-	margin-bottom: 20px;
+    background-position: 30% 20%; 
 	min-height:100px;
-	color: rgb(20, 20, 20);
-	font-size: 18px;
-	font-weight: 600;
-	letter-spacing: 1px;
-	text-transform: uppercase;
+	padding: 0;
+	text-align: center;
 }
 
-.hire-background a {
-	display: inline-block;
-	background: rgb(20, 20, 20);
-	padding: 15px 30px;
-	color: #fff;
-	font-size: 12px;
-	font-weight: 600;
-	letter-spacing: 1px;
-	text-transform: uppercase;
-}
-
-.hire-background a:hover {
-	background: rgb(50, 50, 50);
-	text-decoration: none;
-}
 
 /*-------------------------------------------------
 	7. Portfolio Section
