@@ -151,6 +151,7 @@ textarea {
 
 .home-box img, 
 .service-box div:first-child, 
+.info-box div:first-child, 
 .testimonial-box img, 
 .info i {
 	-webkit-border-radius: 50%;
@@ -606,6 +607,54 @@ textarea {
 	line-height: 50px;
 }
 
+.service-box ul {
+	padding-left:20px;
+	color:rgb(70, 70, 70);
+}
+.service-box li{
+	list-style-type: square;
+ 	margin: 0;
+}
+
+/*-------------------------------------------------
+	8. Infobox Section
+-------------------------------------------------*/
+.info-box {
+	margin-bottom: 40px;
+	text-align: left;
+}
+
+.info-box:last-child {
+	margin: 0;
+}
+
+.info-box div:first-child {
+	float: left;
+	width: 50px;
+	height: 50px;
+	border: 1px solid rgb(220, 220, 220);
+	text-align: center;
+}
+
+.info-box div:last-child {
+	padding-left: 70px;
+}
+
+.info-box h4 {
+	margin-top: 0;
+}
+
+.info-box i {
+	color: rgb(20, 20, 20);
+	font-size: 18px;
+	line-height: 50px;
+}
+
+.info-box-wrapper {
+	margin:20px 0 50px 0;
+}
+
+
 /*-------------------------------------------------
 	9. Facts
 -------------------------------------------------*/
@@ -616,6 +665,7 @@ textarea {
 	-ms-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	background-position:30% 0;
 	text-align: center;
 	min-height:150px;
 	padding: 0;
@@ -879,3 +929,8 @@ sup a, sup a:hover, sup a:focus, sup a:active{
 	color:rgb(70, 70, 70);
 	text-decoration:none;
 }
+
+.about-me-details {
+	margin: 0 auto;
+}
+
