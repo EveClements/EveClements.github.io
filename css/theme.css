@@ -26,7 +26,16 @@
 -------------------------------------------------*/
 html, body {
  	height: 100%;
+ 	cursor:pointer;
 }
+
+.tooltip.top .tooltip-inner {
+    background-color:rgb(70, 70, 70);
+}
+.tooltip.top .tooltip-arrow {
+      border-top-color: rgb(70, 70, 70);
+}
+
 
 body {
 	position: relative;
@@ -935,3 +944,10 @@ sup a, sup a:hover, sup a:focus, sup a:active{
 	margin: 0 auto;
 }
 
+.about p {
+	margin-bottom: 40px;
+}
+
+.about .info-box, .about .info-box p {
+	margin-bottom:0;
+}
